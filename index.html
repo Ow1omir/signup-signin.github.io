@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+
+	<title>SignUp/SignIn</title>
+</head>
+<body>
+	<header class="header">
+		<div class="hidden-text"> 
+			<span style="display:none;">YOU CAN SEE IT</span>
+		</div>
+		<div class="miniature">
+			<div class="circle"></div>
+			<div class="header-username">
+				<span>Logged like:</span>
+				<span id="username">guest</span>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<form action="#" class="sector signUp-sector">
+			<h2>Sign up</h2>
+			<input type="text" placeholder="Login" id="signUpLogin" minlength="3" maxlength="20">
+			<input type="password" placeholder="Repeat password" id="signUpPasaswd" minlength="8" maxlength="28">
+			<input type="password" placeholder="Password"  id="signUpRpPasaswd" minlength="8" maxlength="28">
+			<span>By clicking "Continue", you agree to  </span>
+			<span>the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></span>
+			<input class="btn" id="signUpBtn" type="submit" value="Continue">
+			<span>Already have an account? <a href="#">Sign in</a></span>
+		</form>
+		<form action="#" class="sector signIN-sector">
+			<h2>Sign in</h2>
+			<input type="text" placeholder="Login" id="signInLogin">
+			<input type="password" placeholder="Password"  id="signInPasswd">
+			<div class="checkboxsection">
+				<div><input type="checkbox" placeholder="checkbox"><span>Stay signed in</span></div>
+			</div>
+			<input id="signInBtn" class="btn" type="submit" value="Continue">
+		</form>
+
+	</main>
+	<section class="users">
+		<div class="users-main">
+			<div class="user-body">
+				<div class="user-name">admin</div><div class="user-passwd">12345678</div>
+			</div>
+		</div>
+	</section>
+	<script src="./script.js"></script>
+</body>
+</html>

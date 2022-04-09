@@ -1,0 +1,185 @@
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+	display: flex; 
+	justify-content: space-evenly;
+	padding: 150px 0px 0px 0px;
+}
+a {
+	text-decoration: none;
+	color: #188FFF;
+}
+input {
+	min-width: 300px;
+	font-size: 15px;
+	font-weight: 200;
+	padding: 15px; 
+	margin: 10px 0px 10px 0px;
+	border: 1px solid #ccc;
+}
+input:focus {
+	outline: none;
+	border: 1px solid #25e6ff;
+}
+input:hover { 
+	border: 1px solid #25e6ff;
+}
+button {
+	display: block;
+	min-width: 250px;
+	font-size: 15px; 
+	/* font-weight: bold; */
+	letter-spacing: 4px;
+	color: #fff;
+	padding: 15px; 
+	border: 1px solid #fff;
+	border-radius: 60px;
+	background: #188FFF;
+}
+.btn {
+	display: block;
+	min-width: 250px;
+	font-size: 15px; 
+	/* font-weight: bold; */
+	letter-spacing: 4px;
+	color: #fff;
+	padding: 15px; 
+	border: 1px solid #fff;
+	border-radius: 60px;
+	background: #188FFF
+}
+.btn:hover {
+	background: #167fe0;
+	cursor: pointer;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background: #ccc;
+	display: flex;
+	justify-content: flex-end;
+}
+.hidden-text {
+	width: 100%;
+	font-size: 50px;
+	letter-spacing: 10px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all .3s;
+}
+.miniature {
+	min-width: 320px;
+	height: 100px;
+	border-radius: 20px 0px 0px 20px;
+	background: rgb(155, 155, 155);
+	display: flex;
+	padding: 5px;
+
+}
+.circle {
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	background: rgb(209, 227, 228);
+}
+.header-username {
+	width: 210px;
+	height: 90px;
+	font-size: 19px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+.signUp-sector button {
+	margin: 10px 0px;
+}
+.sector {
+	min-width: 350px;
+	max-width: 400px;
+	min-height: 500px;
+	padding: 25px;
+	display: flex; 
+	flex-direction: column;
+	align-items: center; 
+	justify-items: center;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 50px 1em #ccc;
+}
+.checkboxsection {
+	max-width: 400px;
+	display: flex;
+	flex-direction: row;
+}
+.checkboxsection input {
+	min-width: 0;	
+	font-size: 0;
+	font-weight: 0px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+.checkboxsection span {
+	color: #188FFF;
+	margin: 0px 10px 0px 0px;
+}
+.checkboxsection{
+	margin: 10px 0px;
+}
+.signIN-sector button{
+	margin: 10px 0px;
+}
+
+
+/*  */
+.users {
+	margin: 100px 0px;
+	height: auto;
+}
+.users-main {
+	margin: 0px auto;
+	background: green;
+	min-width: 320px;
+	max-width: 600px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+.user-body {
+	width: 100%;
+	background: blue;
+	border: 1px solid #ccc;
+	display: flex;
+}
+.user-name {
+	width: 50%;
+	height: 80px;
+	font-size: 20px;
+	background: rgb(218, 218, 218);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user-passwd {
+	width: 50%;
+	height: 80px;
+	font-size: 20px;
+	background: rgb(190, 190, 190);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
